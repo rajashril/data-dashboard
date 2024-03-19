@@ -1,0 +1,26 @@
+.dashboard-component {
+  padding: 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 0.5vw;
+  width: 33vw;
+  border-radius: 10px;
+  max-width: 33vw;
+  overflow-x: auto;
+}
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: normal;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+}
+@media screen and (max-width: 767px) {
+  .dashboard-component {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 15px;
+  }
+}

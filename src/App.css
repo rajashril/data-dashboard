@@ -1,0 +1,11 @@
+.app-container {
+  width: 100vw;
+  margin: 4vh auto;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .app-container {
+    display: block;
+  }
+}
